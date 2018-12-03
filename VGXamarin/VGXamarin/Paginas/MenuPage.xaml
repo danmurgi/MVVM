@@ -4,6 +4,6 @@
              x:Class="VGXamarin.Paginas.MenuPage">
     <Label Text="Main Page"/>
     <ContentPage.ToolbarItems>
-        
+
     </ContentPage.ToolbarItems>
 </ContentPage>
