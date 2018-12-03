@@ -1,20 +1,20 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using VGXamarin.Views;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace VGXamarin
 {
     public partial class App : Application
     {
+        public static NavigationPage Navigator { get; internal set; }
 
         public App()
         {
             InitializeComponent();
 
 
-            MainPage = new MainPage();
+            MainPage = new ContentPage();
         }
 
         protected override void OnStart()
