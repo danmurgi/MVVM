@@ -1,4 +1,5 @@
 ﻿using System;
+using VGXamarin.Paginas;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -14,7 +15,7 @@ namespace VGXamarin
             InitializeComponent();
 
 
-            MainPage = new ContentPage();
+            MainPage = new MasterPage();
         }
 
         protected override void OnStart()

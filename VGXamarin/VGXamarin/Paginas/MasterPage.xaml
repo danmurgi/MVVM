@@ -9,10 +9,10 @@
         <pages:MenuPage></pages:MenuPage>
     </MasterDetailPage.Master>
     <MasterDetailPage.Detail>
-        <NavigationPage>
+        <NavigationPage x:Name="Navigator" BarBackgroundColor="Aqua">
+                                                                    
             <x:Arguments>
                 <pages:MainPage>
-                    
                 </pages:MainPage>
             </x:Arguments>
         </NavigationPage>
